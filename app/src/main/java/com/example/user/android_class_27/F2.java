@@ -27,8 +27,9 @@ public class F2 extends Fragment {
         }
         return view;
 
-        public void chanegF2Mesg(String newmesg){
-            strMesg = newmesg;
-        }
+
+    }
+    public void chanegF2Mesg(String newmesg){
+        strMesg = newmesg;
     }
 }

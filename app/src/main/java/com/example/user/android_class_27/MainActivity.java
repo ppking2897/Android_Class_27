@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
 
         tran =  fmgr.beginTransaction();
         tran.replace(R.id.container, isF2?f2:f1);
-        //tran.addToBackStack(null);
+        tran.addToBackStack(null);
         tran.commit();
 
     }
